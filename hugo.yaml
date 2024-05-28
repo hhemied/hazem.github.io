@@ -44,7 +44,7 @@ I hold certifications in GitOps, OpenShift, Advanced Cluster Management, among o
 
   label:
     text: "Hazem Hemied"
-    icon: "images/coding.png"
+    icon: "images/logo.png"
     iconHeight: 35
 
   # profile-mode
@@ -54,7 +54,7 @@ I hold certifications in GitOps, OpenShift, Advanced Cluster Management, among o
     subtitle: "This is the website of **Haze Hemied**,
     I create educational content on **Red Hat** related open source products.
     Some of you may know me as the **hhemied**."
-    imageUrl: "images/dp.png"
+    imageUrl: "images/profile.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: "Hazem Hemied"
