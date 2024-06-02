@@ -51,7 +51,7 @@ I hold certifications in GitOps, OpenShift, Advanced Cluster Management, among o
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
-    subtitle: "This is the website of **Haze Hemied**,
+    subtitle: "This is the website of **Hazem Hemied**,
     I create educational content on **Red Hat** related open source products.
     Some of you may know me as the **hhemied**."
     imageUrl: "images/profile.png"
