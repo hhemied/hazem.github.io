@@ -22,9 +22,7 @@ Instead of pointing to an application manifest, the `root` application points to
 
 One of the strengths of the App of Apps model is that ArgoCD treats child applications as Kubernetes resources (because they are). It monitors their health and will detect any discrepancy. It will optionally resync them if you choose to do so (automatic sync, self-heal enabled).
 
-<img src="../../static/images/appofapps.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+![appofapps](../../static/images/logo.png)
 
 Then the `GIT` structure should looks like 
 ```bash
