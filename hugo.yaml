@@ -15,6 +15,13 @@ minify:
   disableXML: true
   minifyOutput: true
 
+#module:
+#  mounts:
+#    - source: static
+#      target: static
+#    - source: images
+#      #target: static/images
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Hazem Hemied
