@@ -25,96 +25,23 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Hazem Hemied
-  description: "A Principal Cloud Consultant with 13+ years of experience, specialising in designing sustainable and innovative solutions with Red Hat products, open-source technologies, and cloud solutions. I approach is business and goal-oriented, having navigated and contributed significantly to diverse multinational environments.
-
-I hold certifications in GitOps, OpenShift, Advanced Cluster Management, among others, and take pride in my roles as a CNCF Program Committee member and Co-Chair. My commitment to advancing cloud technologies and fostering community collaboration is unwavering. I thrive on challenges and am passionate about turning ambitious visions into realities."
+  description: "A Principal Cloud Consultant with 13+ years of experience, specialising in designing sustainable and innovative solutions with Red Hat products, open-source technologies, and cloud solutions. I approach is business and goal-oriented, having navigated and contributed significantly to diverse multinational environments."
   keywords: [Blog, Portfolio, About]
   author: Hazem Hemied
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-
-  label:
-    text: "Hazem Hemied"
-    icon: "images/logo.png"
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: "Welcome! \U0001F44B"
-    subtitle: "This is the website of **Hazem Hemied**,
-    I create educational content on **Red Hat** related open source products.
-    Some of you may know me as the **hhemied**."
-    imageUrl: "images/profile.png"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: "Hazem Hemied"
-    buttons:
-      - name: Blogs
-        url: blogs
-      - name: Projects
-        url: projects
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Welcome! \U0001F44B"
-    Content: "This is the website of **Haze Hemied**,
-    I create educational content on **Red Hat** related open source products.
-    Some of you may know me as the **hhemied**."
-
-  socialIcons:
-    - name: youtube
-      url: "http://youtube.com/hazemhemaid"
-    # - name: medium
-    #   url: "https://medium.com/@data-professor"
-    # - name: twitter
-    #   url: "https://twitter.com/thedataprof"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/hazemhemied"
-    - name: github
-      url: "https://github.com/hhemied"
-    # - name: buymeacoffee
-    #   url: "https://www.buymeacoffee.com/dataprofessor"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
-
-  editPost:
-#    URL: "https://github.com/chanin-www/content"
-#    Text: "Suggest Changes" # edit text
-    URL: ""
-    Text: "" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
+  keywords: [Blog, Portfolio, About]
+  # Searching content
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -122,36 +49,20 @@ I hold certifications in GitOps, OpenShift, Advanced Cluster Management, among o
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 4
-    - identifier: blog
-      name: Blogs
-      url: /blogs/
-      weight: 1
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 2
-    #- identifier: tags
-    #  name: tags
-    #  url: /tags/
-    #  weight: 4
 
-    #- identifier: example
-    #  name: example.org
-    #  url: https://example.org
-    #  weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome! \U0001F44B"
+    subtitle: "This is the website of ***Hazem Hemied***,I create educational content on **Red Hat** related open source products.Some of you may know me as the **hhemied**."
+    imageUrl: "images/profile.png"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Blogs
+        url: "blogs"
+      - name: Github
+        url: "https://github.com/"
+  cover:
+    responsiveImages: true
